@@ -17,6 +17,7 @@
 
   <section id="four-oh-four">
   <img class="bg" alt="404" />
+	 
   <div id="error-container">
     <div class="overlay"></div>
     <div class="terminal">
@@ -97,8 +98,9 @@
   position: absolute;
   background-image: url(https://i.pinimg.com/originals/fb/8c/6e/fb8c6e7c05195385f5cfeffa5df1e46a.jpg?epik=dj0yJnU9X0FldkEyMW40dmhsbkM2bl9HcnNOM1FWVFc1cmttZHImcD0wJm49MFFZUmdJRG1ESkFHTmhfUHpIR0RpdyZ0PUFBQUFBR0FXcWhV);
   background-color: #333333;
-  background-position: center center;
-  background-size: 150% 150%;
+  background-position: fixed;
+	background-repeat: no-repeat;
+  background-size: 100%;
   width: 100%;
   height: 100%;
   top: 0;
@@ -106,6 +108,12 @@
           transform: rotate();
   z-index: -999;
 }
+#four-oh-four .wrapper{
+		width: 900px;
+		margin:auto;
+		position: relative;
+	}
+	
 #four-oh-four #error-container .overlay {
   position: absolute;
   background-color: #000;
